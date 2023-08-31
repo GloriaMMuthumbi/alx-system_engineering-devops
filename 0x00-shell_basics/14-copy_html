@@ -1,2 +1,2 @@
 #!/bin/bash
-find myDir -name '*.html' -exec cp -u --target-directory=~/otherdir {} +
+find . -maxdepth 1 -name '*.html' -exec cp -u -t ../ {} +
