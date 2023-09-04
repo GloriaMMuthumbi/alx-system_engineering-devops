@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | uniq -c | sort -rn | sed -n '1,11p' | cut -c9-
+cut -f1 nasa_19950801.tsv | sort | uniq -c | sort -rn | sed -n '1,11p' | cut -c9-
