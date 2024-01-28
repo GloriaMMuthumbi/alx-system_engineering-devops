@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#bash script that works like the ls command
+for file in *; do
+	if [ ! -f "$file" ] || [[ $file == .* ]]; then
+		continue
+	fi
+	file_name=$(echo "$file" | cut -d'-' -f2-)
+	echo "- $file_name"
+done
