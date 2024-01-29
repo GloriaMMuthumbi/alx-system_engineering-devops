@@ -11,7 +11,7 @@ if [ -e "$file" ]; then
 			echo "school is a regulare file"
 
 		else
-			:
+			echo "school file is empty"	
 		fi
 	else
 
