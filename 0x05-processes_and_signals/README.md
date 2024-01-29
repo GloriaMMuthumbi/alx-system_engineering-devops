@@ -1,7 +1,6 @@
 Tasks
 0. What is my PID
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a Bash script that displays its own PID.
 
 sylvain@ubuntu$ ./0-what-is-my-pid
@@ -15,7 +14,6 @@ File: 0-what-is-my-pid
     
 1. List your processes
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a Bash script that displays a list of currently running processes.
 
 Requirements:
@@ -83,7 +81,6 @@ File: 1-list_your_processes
     
 2. Show your Bash PID
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Using your previous exercise command, write a Bash script that displays lines containing the bash word, thus allowing you to easily get the PID of your Bash process.
 
 Requirements:
@@ -105,7 +102,6 @@ File: 2-show_your_bash_pid
     
 3. Show your Bash PID made easy
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a Bash script that displays the PID, along with the process name, of processes whose name contain the word bash.
 
 Requirements:
@@ -130,7 +126,6 @@ File: 3-show_your_bash_pid_made_easy
     
 4. To infinity and beyond
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a Bash script that displays To infinity and beyond indefinitely.
 
 Requirements:
@@ -154,7 +149,6 @@ File: 4-to_infinity_and_beyond
     
 5. Don't stop me now!
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 We stopped our 4-to_infinity_and_beyond process using ctrl+c in the previous task, there is actually another way to do this.
 
 Write a Bash script that stops 4-to_infinity_and_beyond process.
@@ -195,7 +189,6 @@ File: 5-dont_stop_me_now
     
 6. Stop me if you can
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a Bash script that stops 4-to_infinity_and_beyond process.
 
 Requirements:
@@ -231,7 +224,6 @@ File: 6-stop_me_if_you_can
     
 7. Highlander
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a Bash script that displays:
 
 To infinity and beyond indefinitely
@@ -270,7 +262,6 @@ File: 7-highlander
     
 8. Beheaded process
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a Bash script that kills the process 7-highlander.
 
 Terminal #0
