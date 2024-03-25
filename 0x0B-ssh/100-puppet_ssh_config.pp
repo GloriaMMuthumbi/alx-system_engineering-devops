@@ -17,3 +17,4 @@ file_line {'Deny Password Auth':
   match		     => '^[#]+[\s]*(?i)PasswordAuthentication[\s]+(yes|no)$',
   replace            => true,
   append_on_no_match => true
+}
