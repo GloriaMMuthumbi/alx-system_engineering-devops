@@ -6,7 +6,7 @@ import requests
 
 if __name__ == "__main__":
     url = "https://jsonplaceholder.typicode.com/"
-    user = requests.get(url + "users").json()
+    users = requests.get(url + "users").json()
 
     with open("todo_all_employees.json", "w") as jsonfile:
         json.dump({
