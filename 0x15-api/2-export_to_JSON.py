@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """Exports to-do list information to JSON format"""
-import sys
 import json
 import requests
+import sys
 
 
 if __name__ == "__main__":
