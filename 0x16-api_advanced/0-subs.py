@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """function that queries reddit aPI and returns number
-of subscribers in a ubreddit"""
+of subscribers in a subreddit"""
 
 import requests
 
