@@ -4,6 +4,7 @@ the titles of first 10 hot posts listed in subreddit."""
 
 import requests
 
+
 def top_ten(subreddit):
     """function to query reddit api and prints the titles
     of the first 10 hot posts in subreddit."""
