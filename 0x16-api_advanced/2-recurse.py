@@ -13,7 +13,7 @@ def recurse(subreddit, hot_list=[], after="", count=0):
             "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by /u/bdov_)"
             }
     params = {
-            "after": after,
+        "after": after,
         "count": count,
         "limit": 100
         }
@@ -22,7 +22,7 @@ def recurse(subreddit, hot_list=[], after="", count=0):
     if response.status_code == 404:
         return None
 
-    results = response.json().get('data')
+    results = response.json().get("data")
     after = results.get("after")
     count += results.get("dist")
     for c in results.get("children"):
